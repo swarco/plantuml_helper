@@ -1,0 +1,22 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/swarco/plantuml_helper/main/src/aws_sprites.puml
+
+title Example usage of the available sprites
+
+Container(c1, "VPC", "", $sprite="vpc")
+Container(c2, "VPC-Peering", "", $sprite="peering")
+Container(c3, "Transit Gateway", "", $sprite="tgw")
+Container(c4, "Transit Gateway Attachement", "", $sprite="tgwa")
+Container(c5, "Subnet", "", $sprite="subnet")
+Container(c6, "DocumentDb", "Compatible to MongoDb", $sprite="docDb")
+Container(c7, "Redis", "", $sprite="redis")
+Container(c8, "SQL-DB", "", $sprite="sql")
+Container(c9, "Message Broker", "", $sprite="broker")
+Container(c10, "Kubernetes", "", $sprite="kubernetes")
+Container(c11, "VPC", "Scaling Group", $sprite="scalinggroup")
+Container(c12, "EC2", "", $sprite="ec2")
+Container(c13, "Account", "", $sprite="account")
+
+
+@enduml

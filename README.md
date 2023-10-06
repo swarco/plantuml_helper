@@ -1,2 +1,3 @@
-# plantuml_helper
-Sprites and additional things
+# TL;DR;
+This repo helps to "brush up" plantuml diagrams.
+
